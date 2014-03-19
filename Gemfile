@@ -15,6 +15,7 @@ gem 'rails', '>= 4.0.0'
 gem 'recipient_interceptor'
 gem 'sass-rails'
 gem 'simple_form'
+gem 'twitter'
 gem 'uglifier'
 gem 'unicorn'
 
@@ -22,6 +23,7 @@ group :development do
   gem 'better_errors'
   gem 'binding_of_caller'
   gem 'figaro'
+  gem 'debugger'
 end
 
 group :development, :test do
