@@ -1,4 +1,4 @@
 CountingGame::Application.routes.draw do
-  root :to => 'pages#index'
+  root :to => 'bots#index'
 
 end

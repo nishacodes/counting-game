@@ -1,0 +1,3 @@
+<% @client.mentions_timeline.each do |tweet| %>
+  <li><%= "#{tweet.user.screen_name} says: #{tweet.text}"%></li>
+<% end %>
